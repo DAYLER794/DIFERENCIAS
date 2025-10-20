@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego: Encuentra los Componentes del PC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>🔍 Encuentra los Componentes del Sistema</h1>
+    <p>Haz clic en los componentes que se indican abajo antes de que se acabe el tiempo.</p>
+
+    <div id="panel">
+      <p><strong>Componentes a encontrar:</strong></p>
+      <ul id="listaObjetos"></ul>
+      <p id="tiempo">Tiempo: 60s</p>
+      <button id="reiniciar">🔄 Reiniciar</button>
+    </div>
+
+    <div id="zonaJuego">
+      <!-- Aquí se insertan los objetos -->
+    </div>
+
+    <div id="mensajeFinal" class="oculto">
+      <h2 id="resultado"></h2>
+      <button id="jugarOtraVez">Jugar otra vez</button>
+    </div>
+  </div>
+
+  <script src="juego.js"></script>
+</body>
+</html>
